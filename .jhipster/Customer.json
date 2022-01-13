@@ -1,0 +1,27 @@
+{
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "10",
+      "fieldValidateRulesMaxlength": "50"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "minlength", "maxlength", "pattern"],
+      "fieldValidateRulesMinlength": "10",
+      "fieldValidateRulesMaxlength": "12",
+      "fieldValidateRulesPattern": "(\\d{3}\\)\\d{3}-?\\d{6}"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "no",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Customer",
+  "changelogDate": "20220112150627"
+}

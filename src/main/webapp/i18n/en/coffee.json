@@ -1,0 +1,25 @@
+{
+  "stabledemojhipsterApp": {
+    "coffee": {
+      "home": {
+        "title": "Coffees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Coffee",
+        "createOrEditLabel": "Create or edit a Coffee",
+        "notFound": "No Coffees found"
+      },
+      "created": "A new Coffee is created with identifier {{ param }}",
+      "updated": "A Coffee is updated with identifier {{ param }}",
+      "deleted": "A Coffee is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Coffee {{ id }}?"
+      },
+      "detail": {
+        "title": "Coffee"
+      },
+      "id": "ID",
+      "name": "Name",
+      "price": "Price"
+    }
+  }
+}
